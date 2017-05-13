@@ -6,6 +6,23 @@
 </head>
 <body>
 <p>留言板</p>
+<form action="/post" method="post">
+    <table>
+        <tr>
+            <th>姓名</th>
+            <td>
+                <input type="text" size="20" name="name">
+            </td>
+        </tr>
+        <tr>
+            <th>留言</th>
+            <td>
+                <textarea rows="5" cols="20" name="content"></textarea>
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value="提交">
+</form>
 
 </body>
 </html>
